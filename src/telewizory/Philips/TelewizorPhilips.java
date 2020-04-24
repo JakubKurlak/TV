@@ -4,9 +4,26 @@ import telewizory.Telewizor;
 
 public abstract class TelewizorPhilips implements Telewizor {
 
+    private String id;
+
     private boolean statusWlaczony = false;
 
     private int obecnyProgram = 3;
+
+    private int cale;
+
+    protected TelewizorPhilips(String id, int cale) {
+        this.id = id;
+        this.cale = cale;
+    }
+
+    public int getCale() {
+        return cale;
+    }
+
+    public String getId() {
+        return id;
+    }
 
     @Override
     public void wlacz() {
