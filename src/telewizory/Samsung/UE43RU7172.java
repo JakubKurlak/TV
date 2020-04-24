@@ -1,3 +1,5 @@
+package telewizory.Samsung;
+
 public class UE43RU7172 extends TelewizorSamsung{
 
     private String id;

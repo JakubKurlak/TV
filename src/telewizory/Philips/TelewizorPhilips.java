@@ -1,3 +1,7 @@
+package telewizory.Philips;
+
+import telewizory.Telewizor;
+
 public abstract class TelewizorPhilips implements Telewizor {
 
     private boolean statusWlaczony = false;

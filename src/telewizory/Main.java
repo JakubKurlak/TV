@@ -1,3 +1,7 @@
+package telewizory;
+
+import telewizory.Samsung.UE43RU7172;
+
 import java.util.Scanner;
 
 public class Main {

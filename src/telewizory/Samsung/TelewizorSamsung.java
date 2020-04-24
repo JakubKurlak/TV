@@ -1,3 +1,7 @@
+package telewizory.Samsung;
+
+import telewizory.Telewizor;
+
 public abstract class TelewizorSamsung implements Telewizor {
 
     private boolean stanWlaczony = false;

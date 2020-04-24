@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6d43026-fb20-4bc7-a4ad-e9d6faebee80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TelewizorPhilips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Telewizor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Telewizor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TelewizorPhilips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TelewizorSamsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Samsung/TelewizorSamsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UE43RU7172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Samsung/UE43RU7172.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="telewizory.Main" />
       <module name="TV" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587759526310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add TelewizorPhilips">
+      <created>1587759920483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587759920483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,17 +126,18 @@
     <MESSAGE value="add Telewizor and TelewizorSamsung" />
     <MESSAGE value="new model and id and cale" />
     <MESSAGE value="add obsługaTelewizora and add start thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="add obsługaTelewizora and add start thread" />
+    <MESSAGE value="add TelewizorPhilips" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TelewizorPhilips" />
   </component>
   <component name="WindowStateProjectService">
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1587759598691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587759598691" />
-    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587759525126">
+    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587759919195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587759525126" />
+    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587759919195" />
     <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1587759529091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,3 +1,5 @@
+package telewizory;
+
 public interface Telewizor {
 
     void wlacz();
