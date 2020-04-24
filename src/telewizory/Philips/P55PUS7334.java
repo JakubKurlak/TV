@@ -10,7 +10,7 @@ public class P55PUS7334 extends TelewizorPhilipsAmbilight {
     private String bluetooth;
     private String wifi;
 
-    protected P55PUS7334(String id) {
+    public P55PUS7334(String id) {
         super(id, 55);
     }
 

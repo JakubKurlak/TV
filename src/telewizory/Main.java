@@ -1,6 +1,7 @@
 package telewizory;
 
 import telewizory.Philips.P43PU6523;
+import telewizory.Philips.P55PUS7334;
 import telewizory.Samsung.UE43RU7172;
 
 import java.util.Scanner;
@@ -14,7 +15,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         //UE43RU7172 tv = new UE43RU7172("Unikalneid123");
         //P43PU6523 tv = new P43PU6523("Unikalneid12345");
-        Telewizor tv = new UE43RU7172("Unikalneid123");
+        //P55PUS7334 tv = new P55PUS7334("Unikalneid1234567");
+        Telewizor tv = new P55PUS7334("Unikalneid1234567");
 
 
         int opcja = 0;
