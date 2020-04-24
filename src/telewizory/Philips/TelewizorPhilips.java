@@ -6,7 +6,7 @@ public abstract class TelewizorPhilips implements Telewizor {
 
     private String id;
 
-    private boolean statusWlaczony = false;
+    protected boolean statusWlaczony = false;
 
     private int obecnyProgram = 3;
 

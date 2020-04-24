@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6d43026-fb20-4bc7-a4ad-e9d6faebee80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/telewizory/Philips/P43PU6523.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilipsAmbilight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Philips/P43PU6523.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Philips/P43PU6523.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Samsung/UE43RU7172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Samsung/UE43RU7172.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587759920483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add philips model">
+      <created>1587760610186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587760610186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,33 +134,34 @@
     <MESSAGE value="new model and id and cale" />
     <MESSAGE value="add obsługaTelewizora and add start thread" />
     <MESSAGE value="add TelewizorPhilips" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TelewizorPhilips" />
+    <MESSAGE value="add philips model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add philips model" />
   </component>
   <component name="WindowStateProjectService">
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1587760551367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587760551367" />
-    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587759919195">
+    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587760608824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587759919195" />
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1587759529091">
+    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587760608824" />
+    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1587760808034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587759529091" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1587759529091">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587760808034" />
+    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1587760808033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587759529091" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1587759529091">
+    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587760808033" />
+    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1587760808033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587759529091" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1587759529091">
+    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587760808033" />
+    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1587760808033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587759529091" />
+    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587760808033" />
     <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1587749168046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
