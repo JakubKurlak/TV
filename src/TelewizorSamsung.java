@@ -43,6 +43,6 @@ public abstract class TelewizorSamsung implements Telewizor {
                     }
                 }
             }
-        });
+        }).start();
     }
 }
