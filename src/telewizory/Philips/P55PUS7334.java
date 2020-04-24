@@ -1,16 +1,17 @@
-package telewizory.Samsung;
+package telewizory.Philips;
 
-public class UE43RU7172 extends TelewizorSamsung{
-
-    private String id;
+public class P55PUS7334 extends TelewizorPhilipsAmbilight {
     private String hdmi1;
     private String hdmi2;
+    private String hdmi3;
     private String optyczne;
     private String usb1;
     private String usb2;
+    private String bluetooth;
+    private String wifi;
 
-    public UE43RU7172(String id) {
-        super(43);
+    protected P55PUS7334(String id) {
+        super(id, 55);
     }
 
     public void setHdmi1(String hdmi1) {
@@ -19,6 +20,10 @@ public class UE43RU7172 extends TelewizorSamsung{
 
     public void setHdmi2(String hdmi2) {
         this.hdmi2 = hdmi2;
+    }
+
+    public void setHdmi3(String hdmi3) {
+        this.hdmi3 = hdmi3;
     }
 
     public void setOptyczne(String optyczne) {
@@ -31,5 +36,13 @@ public class UE43RU7172 extends TelewizorSamsung{
 
     public void setUsb2(String usb2) {
         this.usb2 = usb2;
+    }
+
+    public void setBluetooth(String bluetooth) {
+        this.bluetooth = bluetooth;
+    }
+
+    public void setWifi(String wifi) {
+        this.wifi = wifi;
     }
 }

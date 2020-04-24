@@ -9,5 +9,11 @@ public class P43PU6523 extends TelewizorPhilips {
         super(id, 43);
     }
 
+    public void setHdmi(String hdmi) {
+        this.hdmi = hdmi;
+    }
 
+    public void setUsb(String usb) {
+        this.usb = usb;
+    }
 }
