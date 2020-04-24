@@ -4,6 +4,12 @@ public abstract class TelewizorSamsung implements Telewizor {
 
     private int numerKanalu = 1;
 
+    private int cale;
+
+    protected TelewizorSamsung (int cale){
+        this.cale = cale;
+    }
+
     @Override
     public void wlacz() {
         stanWlaczony = true;

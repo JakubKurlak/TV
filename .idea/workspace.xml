@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6d43026-fb20-4bc7-a4ad-e9d6faebee80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UE43RU7172.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TelewizorSamsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TelewizorSamsung.java" afterDir="false" />
     </list>
@@ -19,7 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="08930c196b832c7cd55650819031ff33203f1de0" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1azquOgh0jW65mB5sispGmYT1WR" />
   <component name="ProjectViewState">
