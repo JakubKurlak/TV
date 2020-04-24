@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-obslugaTelewizora();
-        
+        obslugaTelewizora();
+
     }
 
     private static void obslugaTelewizora() {
@@ -13,10 +13,10 @@ obslugaTelewizora();
 
         int opcja = 0;
         System.out.println("1. Włącz; 2. Wyłącz; 3. Zmień program; 4. Zakończ program;");
-        while (opcja != 4){
+        while (opcja != 4) {
             opcja = scanner.nextInt();
 
-            switch(opcja){
+            switch (opcja) {
                 case 1:
                     tv.wlacz();
                     break;
