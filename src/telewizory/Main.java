@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        obslugaTelewizora();
+  //      obslugaTelewizora();
+        obslugaPilota();
     }
 
     private static void obslugaTelewizora() {
@@ -38,5 +39,39 @@ public class Main {
                     break;
             }
         }
+        scanner.close();
+    }
+
+    private static void obslugaPilota() {
+        Pilot pilot = new PilotNoName();
+        //Telewizor telewizor = new UE43RU7172("Unikalneid1234");
+        Telewizor telewizor = new P55PUS7334("Unikalneid1234");
+
+        pilot.sparujTelewizor(telewizor);
+
+        Scanner scanner = new Scanner(System.in);
+        int opcja;
+
+        System.out.println("0. Naciśnij czerwony; 1. Naciśnij 1; 2. Naciśnij 2; 3. Naciśnij 3; 4. Zakończ; ");
+        do{
+            opcja = scanner.nextInt();
+
+            switch (opcja){
+                case 0:
+                    pilot.nacisnijCzerwony();
+                    break;
+                case 1:
+                    pilot.nacisnijJeden();
+                    break;
+                case 2:
+                    pilot.nacisnijDwa();
+                    break;
+                case 3:
+                    pilot.nacisnijTrzy();
+                    break;
+            }
+        }while (opcja != 4);
+
+        scanner.close();
     }
 }
