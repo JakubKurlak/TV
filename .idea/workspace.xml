@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6d43026-fb20-4bc7-a4ad-e9d6faebee80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/TV/META-INF/TV.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/P43PU6523.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/P55PUS7334.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/TelewizorPhilips$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/TelewizorPhilips.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/TelewizorPhilipsAmbilight$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Philips/TelewizorPhilipsAmbilight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Samsung/TelewizorSamsung$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Samsung/TelewizorSamsung.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Samsung/UE43RU7172.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TV/telewizory/Telewizor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telewizory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telewizory/Philips/P55PUS7334.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Philips/P55PUS7334.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Philips/TelewizorPhilips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/PilotNoName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/PilotNoName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Samsung/TelewizorSamsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Samsung/TelewizorSamsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telewizory/Telewizor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telewizory/Telewizor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587761480713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Pilot and PilotNoName">
+      <created>1587762058056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587762058056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +155,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -148,36 +171,37 @@
     <MESSAGE value="add philips model" />
     <MESSAGE value="add class ambilight" />
     <MESSAGE value="add model ambilight, setters forEach model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model ambilight, setters forEach model" />
+    <MESSAGE value="add Pilot and PilotNoName" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pilot and PilotNoName" />
   </component>
   <component name="WindowStateProjectService">
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1587762016409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587762016409" />
-    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587761478887">
+    <state x="808" y="10" key="CommitChangelistDialog2" timestamp="1587762056362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587761478887" />
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1587761566656">
+    <state x="808" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587762056362" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587762083922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587761566656" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1587761566655">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587762083922" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587762083922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587761566655" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1587761566655">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587762083922" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587762083922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587761566655" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1587761566655">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587762083922" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587762083922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587761566655" />
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1587749168046">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587762083922" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1587832145821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587749168046" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587832145821" />
   </component>
 </project>

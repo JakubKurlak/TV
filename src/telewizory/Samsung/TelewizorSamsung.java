@@ -10,7 +10,7 @@ public abstract class TelewizorSamsung implements Telewizor {
 
     private int cale;
 
-    protected TelewizorSamsung (int cale){
+    protected TelewizorSamsung(int cale) {
         this.cale = cale;
     }
 
@@ -25,6 +25,15 @@ public abstract class TelewizorSamsung implements Telewizor {
     public void wylacz() {
         System.out.println("ANIMACJA CZARNOŚCI");
         stanWlaczony = false;
+    }
+
+    @Override
+    public void akcjaZasialania() {
+        if (stanWlaczony) {
+            wylacz();
+        } else {
+            wlacz();
+        }
     }
 
     @Override

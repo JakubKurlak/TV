@@ -37,7 +37,15 @@ public abstract class TelewizorPhilips implements Telewizor {
     public void wylacz() {
         statusWlaczony = false;
         System.out.println("CZARNOŚĆ");
+    }
 
+    @Override
+    public void akcjaZasialania() {
+        if(statusWlaczony) {
+            wylacz();
+        }else {
+            wlacz();
+        }
     }
 
     @Override
